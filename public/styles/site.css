@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    color: blueviolet;
+}
+
+#symbol {
+    color: blue;
+    font-size: 2em;
+}
+.board {
+    margin: auto;
+    width: 350px;
+    color: red;
+}
+.board button {
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+}
+
+#messages {
+    font-size: 1.9em;
+}
+
+.logincontainer {
+    background-color: rgb(255, 0, 0);
+    border-radius: 0.25rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  }
+
+    
+#gameBoardpage {
+    height: 90vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+  }
